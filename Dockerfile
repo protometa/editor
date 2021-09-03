@@ -4,7 +4,8 @@ RUN apk add --no-cache \
   neovim \
   neovim-doc \
   git \
-  nodejs
+  nodejs \
+  fzf
 
 RUN mkdir -p /root/.local/share/nvim/site/autoload && wget -O /root/.local/share/nvim/site/autoload/plug.vim \
   https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
