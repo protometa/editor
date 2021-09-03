@@ -4,9 +4,6 @@ call plug#begin()
 " File tree
 Plug 'preservim/nerdtree'
 
-" Icons for different file types
-Plug 'ryanoasis/vim-devicons'
-
 " Git status icons
 Plug 'airblade/vim-gitgutter'
 
