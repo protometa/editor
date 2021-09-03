@@ -22,7 +22,7 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 
 " Easy alignment tool
-Plug 'junegun" Configure editorn/vim-easy-align'
+Plug 'junegunn/vim-easy-align'
 
 " Theme
 Plug 'lifepillar/vim-gruvbox8'
