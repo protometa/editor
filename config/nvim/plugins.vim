@@ -25,9 +25,6 @@ Plug 'fannheyward/coc-rust-analyzer'
 " Pretty much just for format on save
 Plug 'rust-lang/rust.vim'
 
-" Easy alignment tool
-Plug 'junegunn/vim-easy-align'
-
 " Theme
 Plug 'lifepillar/vim-gruvbox8'
 
@@ -38,7 +35,8 @@ Plug 'tpope/vim-commentary'
 Plug 'cespare/vim-toml'
 
 " Markdown syntax and tools
-Plug 'ixru/nvim-markdown'
+Plug 'godlygeek/tabular'
+Plug 'plasticboy/vim-markdown'
 
 call plug#end()
 
