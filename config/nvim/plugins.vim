@@ -37,5 +37,8 @@ Plug 'tpope/vim-commentary'
 " TOML syntax
 Plug 'cespare/vim-toml'
 
+" Markdown syntax and tools
+Plug 'ixru/nvim-markdown'
+
 call plug#end()
 
