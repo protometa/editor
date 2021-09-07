@@ -1,0 +1,8 @@
+{
+  "rust-analyzer": {
+    "updates": {
+      "prompt": false
+    }
+  }
+}
+
