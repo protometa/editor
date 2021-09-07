@@ -1,4 +1,8 @@
 
+set tabstop=2
+set shiftwidth=2
+set expandtab
+
 let mapleader = "\<Space>"
 filetype plugin on
 set completeopt=menuone
