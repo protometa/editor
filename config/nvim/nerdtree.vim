@@ -16,3 +16,19 @@ let NERDTreeMinimalUI=1
 let NERDTreeShowHidden=1
 let NERDTreeIgnore = ['\.git$', '\.DS_Store$']
 
+" nerdtree git customization
+let g:NERDTreeGitStatusIndicatorMapCustom = {
+                \ 'Modified'  :'~',
+                \ 'Staged'    :'+',
+                \ 'Untracked' :'?',
+                \ 'Renamed'   :'R',
+                \ 'Unmerged'  :'U',
+                \ 'Deleted'   :'D',
+                \ 'Dirty'     :'~',
+                \ 'Ignored'   :'|',
+                \ 'Clean'     :'+',
+                \ 'Unknown'   :'',
+                \ }
+let g:NERDTreeGitStatusConcealBrackets = 1
+let g:NERDTreeGitStatusShowIgnored = 1
+

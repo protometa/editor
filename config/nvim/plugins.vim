@@ -3,6 +3,7 @@ call plug#begin()
 
 " File tree
 Plug 'preservim/nerdtree'
+Plug 'Xuyuanp/nerdtree-git-plugin'
 
 " Git status icons
 Plug 'airblade/vim-gitgutter'
