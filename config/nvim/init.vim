@@ -5,4 +5,5 @@ source $HOME/.config/nvim/theme.vim
 source $HOME/.config/nvim/nerdtree.vim
 source $HOME/.config/nvim/coc.vim
 source $HOME/.config/nvim/remaps.vim
+source $HOME/.config/nvim/vim-markdown.vim
 
