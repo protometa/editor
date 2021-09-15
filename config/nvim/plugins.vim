@@ -38,5 +38,8 @@ Plug 'cespare/vim-toml'
 Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'
 
+" Surround
+Plug 'tpope/vim-surround'
+
 call plug#end()
 
