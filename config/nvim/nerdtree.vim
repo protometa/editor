@@ -14,4 +14,5 @@ autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTr
 " minimal UI (removes help prompt)
 let NERDTreeMinimalUI=1
 let NERDTreeShowHidden=1
+let NERDTreeIgnore = ['\.git$', '\.DS_Store$']
 
