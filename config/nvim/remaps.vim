@@ -1,4 +1,7 @@
 
+" Escape sequence
+imap kj <Esc>
+
 " Align GitHub-flavored Markdown tables
 au FileType markdown vmap <Leader><Bslash> :EasyAlign*<Bar><Enter>
 
@@ -20,4 +23,16 @@ nmap <Leader>h :History<CR>
 nnoremap <silent><c-s> :<c-u>update<cr>
 vnoremap <silent><c-s> <c-c>:update<cr>gv
 inoremap <silent><c-s> <c-o>:update<cr>
+
+" Command to write and close buffer without closing window
+map <Leader>w :b#<bar>bd#<CR>
+
+" toggle NERDTree
+nmap <Leader>t :NERDTreeToggle<CR>
+
+" Open terminal below
+nmap <Leader>T :botright10 split <bar> terminal <CR>
+
+" Search for selected text
+vnoremap // y/\V<C-R>=escape(@",'/\')<CR><CR>
 

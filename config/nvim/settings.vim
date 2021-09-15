@@ -2,6 +2,7 @@
 set tabstop=2
 set shiftwidth=2
 set expandtab
+set linebreak
 
 let mapleader = "\<Space>"
 filetype plugin on
