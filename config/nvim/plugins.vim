@@ -38,6 +38,9 @@ Plug 'cespare/vim-toml'
 Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'
 
+" Distraction free mode
+Plug 'junegunn/goyo.vim'
+
 " Surround
 Plug 'tpope/vim-surround'
 

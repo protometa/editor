@@ -6,4 +6,5 @@ source $HOME/.config/nvim/nerdtree.vim
 source $HOME/.config/nvim/coc.vim
 source $HOME/.config/nvim/remaps.vim
 source $HOME/.config/nvim/vim-markdown.vim
+source $HOME/.config/nvim/goyo.vim
 
