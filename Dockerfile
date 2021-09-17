@@ -24,8 +24,11 @@ RUN mkdir coc-rust-analyzer-data &&\
   chmod +x coc-rust-analyzer-data/rust-analyzer
 
 # install coc extensions
-RUN npm install coc-rust-analyzer --global-style --ignore-scripts --no-bin-links --no-package-lock --only=prod
-RUN npm install coc-tsserver --global-style --ignore-scripts --no-bin-links --no-package-lock --only=prod
+RUN npm install \
+  coc-rust-analyzer \
+  coc-tsserver \
+  coc-graphql \
+  --global-style --ignore-scripts --no-bin-links --no-package-lock --only=prod
 
 # install plugins
 COPY config/nvim/plugins.vim /root/.config/nvim/init.vim
