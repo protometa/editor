@@ -44,3 +44,5 @@ let g:rustfmt_autosave = 1
 let g:svelte_indent_script = 0
 let g:svelte_indent_style = 0
 
+autocmd BufWritePost,TextChanged,TextChangedI * call lightline#update()
+

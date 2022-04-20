@@ -37,3 +37,26 @@ nmap <Leader>T :botright10 split <bar> terminal <CR>
 " Search for selected text
 vnoremap // y/\V<C-R>=escape(@",'/\')<CR><CR>
 
+" Switch to buffer by tabline ordinal
+nmap <Leader>1 <Plug>lightline#bufferline#go(1)
+nmap <Leader>2 <Plug>lightline#bufferline#go(2)
+nmap <Leader>3 <Plug>lightline#bufferline#go(3)
+nmap <Leader>4 <Plug>lightline#bufferline#go(4)
+nmap <Leader>5 <Plug>lightline#bufferline#go(5)
+nmap <Leader>6 <Plug>lightline#bufferline#go(6)
+nmap <Leader>7 <Plug>lightline#bufferline#go(7)
+nmap <Leader>8 <Plug>lightline#bufferline#go(8)
+nmap <Leader>9 <Plug>lightline#bufferline#go(9)
+nmap <Leader>0 <Plug>lightline#bufferline#go(10)
+
+" Close buffer by tabline ordinal
+nmap <Leader>q1 <Plug>lightline#bufferline#delete(1)
+nmap <Leader>q2 <Plug>lightline#bufferline#delete(2)
+nmap <Leader>q3 <Plug>lightline#bufferline#delete(3)
+nmap <Leader>q4 <Plug>lightline#bufferline#delete(4)
+nmap <Leader>q5 <Plug>lightline#bufferline#delete(5)
+nmap <Leader>q6 <Plug>lightline#bufferline#delete(6)
+nmap <Leader>q7 <Plug>lightline#bufferline#delete(7)
+nmap <Leader>q8 <Plug>lightline#bufferline#delete(8)
+nmap <Leader>q9 <Plug>lightline#bufferline#delete(9)
+nmap <Leader>q0 <Plug>lightline#bufferline#delete(10)
