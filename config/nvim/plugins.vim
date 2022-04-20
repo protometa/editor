@@ -45,5 +45,8 @@ Plug 'junegunn/goyo.vim'
 " Surround
 Plug 'tpope/vim-surround'
 
+" Graphql
+Plug 'jparise/vim-graphql'
+
 call plug#end()
 

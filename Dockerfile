@@ -27,8 +27,11 @@ RUN mkdir coc-rust-analyzer-data &&\
 RUN npm install \
   coc-rust-analyzer \
   coc-tsserver \
-  coc-graphql \
   --global-style --ignore-scripts --no-bin-links --no-package-lock --only=prod
+
+RUN npm install -g \
+  graphql-language-service-cli \
+  graphql
 
 # install plugins
 COPY config/nvim/plugins.vim /root/.config/nvim/init.vim
