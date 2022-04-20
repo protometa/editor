@@ -40,3 +40,7 @@ set shortmess+=c
 " Setting for rust.vim
 let g:rustfmt_autosave = 1
 
+" no vim-svelte incorrect indenting
+let g:svelte_indent_script = 0
+let g:svelte_indent_style = 0
+

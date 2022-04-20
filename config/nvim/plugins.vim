@@ -48,5 +48,8 @@ Plug 'tpope/vim-surround'
 " Graphql
 Plug 'jparise/vim-graphql'
 
+" Svelte
+Plug 'evanleck/vim-svelte'
+
 call plug#end()
 
