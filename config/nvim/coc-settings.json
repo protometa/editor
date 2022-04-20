@@ -11,6 +11,9 @@
       "filetypes": ["typescript", "typescriptreact", "graphql"]
     }
   },
-  "svelte.enable-ts-plugin": true
+  "svelte.enable-ts-plugin": true,
+  "metals": {
+    "showInferredType": true
+  }
 }
 
