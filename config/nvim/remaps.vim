@@ -25,9 +25,6 @@ nnoremap <silent><c-s> :<c-u>update<cr>
 vnoremap <silent><c-s> <c-c>:update<cr>gv
 inoremap <silent><c-s> <c-o>:update<cr>
 
-" Command to write and close buffer without closing window
-map <Leader>w :b#<bar>bd#<CR>
-
 " toggle NERDTree
 nmap <Leader>t :NERDTreeToggle<CR>
 
@@ -50,13 +47,16 @@ nmap <Leader>9 <Plug>lightline#bufferline#go(9)
 nmap <Leader>0 <Plug>lightline#bufferline#go(10)
 
 " Close buffer by tabline ordinal
-nmap <Leader>q1 <Plug>lightline#bufferline#delete(1)
-nmap <Leader>q2 <Plug>lightline#bufferline#delete(2)
-nmap <Leader>q3 <Plug>lightline#bufferline#delete(3)
-nmap <Leader>q4 <Plug>lightline#bufferline#delete(4)
-nmap <Leader>q5 <Plug>lightline#bufferline#delete(5)
-nmap <Leader>q6 <Plug>lightline#bufferline#delete(6)
-nmap <Leader>q7 <Plug>lightline#bufferline#delete(7)
-nmap <Leader>q8 <Plug>lightline#bufferline#delete(8)
-nmap <Leader>q9 <Plug>lightline#bufferline#delete(9)
-nmap <Leader>q0 <Plug>lightline#bufferline#delete(10)
+nmap <Leader>w1 <Plug>lightline#bufferline#delete(1)
+nmap <Leader>w2 <Plug>lightline#bufferline#delete(2)
+nmap <Leader>w3 <Plug>lightline#bufferline#delete(3)
+nmap <Leader>w4 <Plug>lightline#bufferline#delete(4)
+nmap <Leader>w5 <Plug>lightline#bufferline#delete(5)
+nmap <Leader>w6 <Plug>lightline#bufferline#delete(6)
+nmap <Leader>w7 <Plug>lightline#bufferline#delete(7)
+nmap <Leader>w8 <Plug>lightline#bufferline#delete(8)
+nmap <Leader>w9 <Plug>lightline#bufferline#delete(9)
+nmap <Leader>w0 <Plug>lightline#bufferline#delete(10)
+
+" bbye close buffer
+nnoremap <silent><c-w> :Bdelete<cr>

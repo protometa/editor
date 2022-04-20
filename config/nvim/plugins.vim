@@ -15,6 +15,9 @@ Plug 'editorconfig/editorconfig-vim'
 Plug 'itchyny/lightline.vim'
 Plug 'mengelbrecht/lightline-bufferline'
 
+" better buffer deletion
+Plug 'moll/vim-bbye'
+
 " Fuzzy Finder
 Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
