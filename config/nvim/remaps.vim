@@ -15,6 +15,7 @@ nmap <Leader>bl :Buffers<CR>
 nmap <Leader>g :GFiles<CR>
 nmap <Leader>e :Files<CR>
 nmap <Leader>f :Rg<CR>
+nmap <Leader>F :BLines<CR>
 nmap <Leader>p :Commands<CR>
 nmap <Leader>g? :GFiles?<CR>
 nmap <Leader>h :History<CR>
