@@ -29,8 +29,19 @@ Plug 'fannheyward/coc-rust-analyzer'
 " Pretty much just for format on save
 Plug 'rust-lang/rust.vim'
 
-" Theme
+" Themes
 Plug 'lifepillar/vim-gruvbox8'
+Plug 'fcpg/vim-fahrenheit'
+Plug 'sstallion/vim-wtf'
+Plug 'patstockwell/vim-monokai-tasty'
+
+" Syntax
+Plug 'HerringtonDarkholme/yats.vim'
+Plug 'pangloss/vim-javascript'
+Plug 'MaxMEllon/vim-jsx-pretty'
+Plug 'styled-components/vim-styled-components'
+Plug 'elzr/vim-json'
+Plug 'jparise/vim-graphql'
 
 " Commenting tool
 Plug 'tpope/vim-commentary'
