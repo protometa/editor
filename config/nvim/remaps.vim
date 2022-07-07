@@ -59,4 +59,4 @@ nmap <Leader>w9 <Plug>lightline#bufferline#delete(9)
 nmap <Leader>w0 <Plug>lightline#bufferline#delete(10)
 
 " bbye close buffer
-nnoremap <silent><c-w> :Bdelete<cr>
+nnoremap <Leader>ww :Bdelete<cr>
