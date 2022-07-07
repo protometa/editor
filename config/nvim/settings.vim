@@ -46,3 +46,6 @@ let g:svelte_indent_style = 0
 
 autocmd BufWritePost,TextChanged,TextChangedI * call lightline#update()
 
+" parse larger portion of file for better syntax highlighting
+autocmd BufEnter * :syntax sync minlines=10000
+
